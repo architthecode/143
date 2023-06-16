@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request
 import csv
-
 all_articles = []
 
 with open("articles.csv") as f:
